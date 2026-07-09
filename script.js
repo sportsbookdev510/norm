@@ -74,7 +74,7 @@ let W,
   H,
   balls = [],
   sparks = [];
-const EMOJIS = ["⚽", "🐐", "🏆", "🥅", "🔥"];
+const EMOJIS = ["🚀", "🌙", "💚", "📈", "🔥"];
 
 function resize() {
   W = canvas.width = innerWidth;
@@ -115,7 +115,7 @@ addEventListener("click", (e) => {
       vy: Math.sin(a) * (2 + Math.random() * 3),
       life: 1,
       size: 3 + Math.random() * 3,
-      color: ["#a855f7", "#22d3ee", "#ec4899", "#fbbf24"][i % 4],
+      color: ["#00c805", "#39d353", "#00a004", "#ffffff"][i % 4],
     });
   }
 });
