@@ -48,7 +48,7 @@ if (copyBtn) {
   copyBtn.addEventListener("click", async () => {
     try {
       await navigator.clipboard.writeText(caText.textContent.trim());
-      toast("CONTRACT COPIED! 🚀");
+      toast("CONTRACT COPIED! 💼");
     } catch {
       toast("COPY FAILED — SELECT MANUALLY");
     }
@@ -74,7 +74,7 @@ let W,
   H,
   balls = [],
   sparks = [];
-const EMOJIS = ["🚀", "🌙", "💚", "📈", "🔥"];
+const EMOJIS = ["💼", "🚀", "💚", "📈", "🔐"];
 
 function resize() {
   W = canvas.width = innerWidth;
